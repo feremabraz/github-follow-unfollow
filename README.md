@@ -18,9 +18,10 @@ npm run dev
 npm run build
 ```
 
-2. Create a cronjob pointing to `dist/index.js`.
+2. Create a cronjob pointing to `dist/index.js` and a `cron.log` at root.
 
 ```bash
+touch cron.log
 crontab -e
 0 */8 * * * /usr/bin/node FULL_PATH_TO_FILE >> FULL_PATH_TO_LOG 2>&1
 ```
