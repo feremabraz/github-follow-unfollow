@@ -19,6 +19,7 @@
   "name": "github-follow-unfollow",
   "private": true,
   "scripts": {
+    "prepare": "husky install",
     "check": "eslint . && prettier . --check",
     "lint": "eslint . --fix && prettier . --write",
     "build": "rm dist -rf && tsc",
