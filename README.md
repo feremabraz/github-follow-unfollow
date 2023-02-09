@@ -22,5 +22,5 @@ npm run build
 
 ```bash
 crontab -e
-0 */8 * * * /usr/bin/node FULL_PATH_TO_FILE
+0 */8 * * * /usr/bin/node FULL_PATH_TO_FILE >> FULL_PATH_TO_LOG 2>&1
 ```
