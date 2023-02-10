@@ -23,5 +23,5 @@ npm run build
 ```bash
 touch cron.log
 crontab -e
-0 */8 * * * /usr/bin/node FULL_PATH_TO_FILE >> FULL_PATH_TO_LOG 2>&1
+0 */8 * * * FULL_PATH_TO_NODE FULL_PATH_TO_FILE >> FULL_PATH_TO_LOG 2>&1
 ```
